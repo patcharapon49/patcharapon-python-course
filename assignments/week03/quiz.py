@@ -1,6 +1,5 @@
 # Complete this program to classify people by age
-age = int(input("Enter age: "))
-
+age = int(input("Enter age:"))
 # Add your if-elif-else statements here
 # 0-12: Child
 # 13-19: Teenager  
@@ -8,7 +7,14 @@ age = int(input("Enter age: "))
 # 60+: Senior
 
 # Your code here:
-
+if age <= 12:
+    print("You are Child")
+elif age <= 19:
+    print("You are Teenager")
+elif age <= 59:
+    print("You are Adult")
+else :
+    print("You are Senior")
 
 
 # Complete this ATM simulation
@@ -28,6 +34,20 @@ if entered_pin == pin:
         
         # Complete the menu logic here
         # Your code here:
+        if choice = 1:
+            print("Your Balance is ",balance)
         
+        elif choice = 2:
+            withdraw = int(input("How many you want to withdraw: "))
+        balance -= withdraw
+        print("Your Balance is ",balance)
+        
+        elif choice = 3 
+            deposit = int(input("How many you want to deposit: "))
+        balance += deposit
+        print("Your Balance is ",balance)
+
+        elif choice = 4:
+            break:
 else:
     print("Invalid PIN")

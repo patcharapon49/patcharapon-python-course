@@ -1,9 +1,14 @@
+#arithmetic operatores --> + - * / // % ** ++ --
+#comparition operatores --> == != < > <= >=
+#logical operatores --> and (&&) or (!!) not (!)
+
+
 # Multiple conditions with logical operators
 username = "admin"
 password = "12345"
 is_active = True
 
-if username == "admin" and password == "12345" and is_active:
+if username == "admin" and password == "12345" and is_active: #can write is_active == true "but it ok to not write bc 'is_active is bolen' "
     print("Access granted")
 elif username == "admin" and password == "12345" and not is_active:
     print("Account is deactivated")
