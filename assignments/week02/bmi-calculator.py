@@ -36,3 +36,4 @@ elif bmi >= 25.0:
     print("Overweight")
 elif bmi >= 30.0:
     print("Obese")
+else: print("Invaid input")
