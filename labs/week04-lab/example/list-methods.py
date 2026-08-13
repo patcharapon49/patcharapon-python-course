@@ -2,6 +2,7 @@
 numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5]
 fruits = ["apple", "banana", "apple", "orange"]
 
+print(sum(numbers))
 # Length and counting
 print(f"Length: {len(numbers)}")           # 9
 print(f"Count of 1: {numbers.count(1)}")   # 2
