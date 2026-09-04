@@ -185,9 +185,11 @@ sal = 20000
 
 # Different format styles
 str1 = '{},{},{}'.format(id_num, name, sal)
+strl = f'{id_num},{name},{sal}'
 print(str1)  # 10,shankar,20000
 
 str2 = '{} - {} - {}'.format(id_num, name, sal)
+strl2 = f'{id_num},{name},{sal}'
 print(str2)  # 10 - shankar - 20000
 
 str3 = 'id={}\nname={}\nsal={}'.format(id_num, name, sal)
@@ -215,7 +217,7 @@ print(f"Ends with 'python': {text.endswith('python')}")
 
 # Modification methods
 print(f"Replace 'python' with 'java': {text.replace('python', 'java')}")
-words = text.split()
+words = text.split() #['welcome', 'to', 'the', 'world', 'of', 'python']
 print(f"Split into words: {words}")
 print(f"Join with '-': {'-'.join(words)}")
 
