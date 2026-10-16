@@ -10,16 +10,11 @@ print("My name is Your Name")
 # Write three print statements that display:
 # Line 1: Your name
 # Line 2: Your age
-<<<<<<< HEAD
 # Line 3: Your favorite hobby
 # Write your code here:
 print("My name is Patcharapon")
 print("I am 19 Years old")
 print("My favorite Hobby is Sleeping")
-=======
-# Line 3: Your favorite hobbyๅ
-# Write your code here:
->>>>>>> upstream/main
 
 
 # Exercise 4: Print with Different Content
@@ -29,14 +24,9 @@ print("My favorite Hobby is Sleeping")
 # - A sentence with spaces
 
 # Write your code here:
-<<<<<<< HEAD
 print(19)
 print("Hello")
 print("Hi My Name is Arm")
-=======
-
-
->>>>>>> upstream/main
 
 # Exercise 5: Understanding Print Behavior
 # What happens when you run these? Try to predict before running:
@@ -47,7 +37,6 @@ print("Third", "line", "with", "multiple", "arguments")
 # Exercise 6: Comments Practice
 # Add comments above each print statement explaining what it does
 
-<<<<<<< HEAD
 # It will print Welcome to Python programming!
 print("Welcome to Python programming!")
 
@@ -55,13 +44,4 @@ print("Welcome to Python programming!")
 print("Python is fun!")
 
 # It will print I am learning to code!
-=======
-# 
-print("Welcome to Python programming!")
-
-# 
-print("Python is fun!")
-
-# 
->>>>>>> upstream/main
 print("I am learning to code!")

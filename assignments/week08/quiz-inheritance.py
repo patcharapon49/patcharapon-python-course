@@ -1,14 +1,9 @@
-<<<<<<< HEAD
 """
-=======
-""" 
->>>>>>> upstream/main
 Create a class hierarchy:
 
     Base class Vehicle with attributes: brand, model, year
     Derived class Car with additional attribute: number_of_doors
     Implement a method get_info() in both classes
-<<<<<<< HEAD
 """
 
 class Vehicle:
@@ -39,7 +34,3 @@ print(vehicle.get_info())
 
 car = Car("Honda", "City", "2020", "5")
 print(car.get_info())
-=======
-
-"""
->>>>>>> upstream/main
